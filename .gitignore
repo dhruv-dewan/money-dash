@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.csv
+!tests/fixtures/*.csv
+data/
+*.db
+*.db-*
+*.sqlite*
+*.bak
+backups/
+.env*
+.streamlit/secrets.toml
+*.png
